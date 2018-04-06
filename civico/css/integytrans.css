@@ -1,0 +1,38 @@
+/* Integrantes*/
+.nosotros{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nosotros h1{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.equipo2{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding-bottom: 5%; 
+}
+.integrantes img{
+	width:170px;
+	height:170px;
+}
+
+/* Transparencia*/
+.transparencia{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-color:#2F4960;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:70%;
+    margin: 0 15% 15% 15%;
+    padding-bottom: 10%;
+}
+.transparencia h1{	
+	color:white;
+	text-align: center;
+	padding:3% 0 6% 0;
+}
